@@ -5,10 +5,10 @@
 }
 
 // HEADER
-$header-footer-margin: 30px 50px;
+$header-footer-padding: 15px 50px;
 
-%header-footer-margin {
-  margin:25px 90px;
+%header-footer-padding {
+  padding:$header-footer-padding;
 }
 
 $brown-color: #58402c;

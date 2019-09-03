@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 
-header {
-  margin: 25px 90px;
+header div.top-header {
+  padding: 15px 50px;
 }
 
 div.prima-sezione,
@@ -364,10 +364,18 @@ div.prima-sezione {
 
 header div.top-header {
   border-bottom: 1px solid #58402c;
+  position: fixed;
+  z-index: 100;
+  background-color: white;
+}
+
+header div.top-header div.logo img {
+  float: left;
 }
 
 header div.top-header div.logo p {
-  margin-left: 10px;
+  float: left;
+  margin-left: 30px;
   font-size: 20px;
 }
 
@@ -413,7 +421,7 @@ header div.top-header div.right-menu .list-menu li {
 }
 
 header div.top-header div.right-menu .list-menu li:first-child {
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 header div.top-header div.right-menu .list-menu a {
@@ -425,7 +433,7 @@ header div.top-header div.right-menu .list-menu a:hover {
 }
 
 header div.bottom-header {
-  margin-top: 100px;
+  margin: 120px 0;
 }
 
 header div.bottom-header .bottom-header-sx h1 {
