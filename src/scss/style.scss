@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// HEADER
+$header-footer-margin: 30px 50px;
+
+%header-footer-margin {
+  margin:25px 90px;
+}
+
+$brown-color: #58402c;
+
+%brown-color {
+  color: $brown-color;
+}
+
+
+//MAIN
+$pink-main: #ffe7d2;
+
+%pink-color {
+  background-color: $pink-main;
+}
+
+@mixin ptriade {
+  margin: 0 80px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+
+
+
+@import "12col";
+@import "header";
+@import "main";

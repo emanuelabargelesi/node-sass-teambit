@@ -1,0 +1,113 @@
+header {
+  @extend %header-footer-margin;
+  @extend %brown-color;
+
+
+
+div.top-header {
+  border-bottom: 1px solid #58402c;
+
+
+
+div.logo {
+
+
+  p {
+    margin-left: 10px;
+    font-size: 20px;
+  }
+}
+
+
+div.right-menu {
+
+  .dropdown {
+    position: relative;
+  }
+
+  .dropdown:hover .dropdown-menu {
+      display: block;
+      margin-top: 0;
+   }
+
+  button {
+    @extend %brown-color;
+    font-size: 16px;
+    background: none;
+    border: none;
+    box-shadow: none;
+  }
+
+  button:hover {
+    background: none;
+    color: blue;
+  }
+
+  .dropdown-menu:hover {
+    background: white;
+  }
+
+  .dropdown-menu a:hover {
+    background: white;
+    color: blue;
+  }
+
+  .list-menu {
+    list-style-type: none;
+  }
+
+  .list-menu li {
+    display: inline-block;
+    margin: 0 25px;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+
+  .list-menu li:first-child {
+    margin-left: 0px;
+  }
+
+  .list-menu a {
+    @extend %brown-color;
+    text-decoration: none;
+  }
+
+  .list-menu a:hover {
+    color: blue;
+  }
+
+}
+}
+
+
+
+div.bottom-header {
+  margin-top: 100px;
+
+
+.bottom-header-sx {
+
+  h1 {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 75px;
+  }
+
+  h3 {
+    font-weight: lighter;
+    line-height: 40px;
+  }
+
+}
+
+
+
+  .bottom-header-dx {
+
+    img {
+      width: 100%;
+    }
+  }
+  }
+
+}
