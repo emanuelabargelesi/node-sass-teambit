@@ -8,15 +8,10 @@ header div.top-header {
   padding: 15px 50px;
 }
 
-div.prima-sezione,
 header div.top-header div.right-menu .list-menu a,
 header div.top-header div.right-menu button,
 header {
   color: #58402c;
-}
-
-div.prima-sezione {
-  background-color: #ffe7d2;
 }
 
 * {
@@ -367,6 +362,7 @@ header div.top-header {
   position: fixed;
   z-index: 100;
   background-color: white;
+  top: 0;
 }
 
 header div.top-header div.logo img {
@@ -451,7 +447,19 @@ header div.bottom-header .bottom-header-dx img {
   width: 100%;
 }
 
+@media (max-width: 600px) {
+  .top-header {
+    padding: 0;
+  }
+
+  .right-menu {
+    display: none;
+  }
+}
+
 div.prima-sezione {
+  background-color: #ffe7d2;
+  color: #58402c;
   text-align: center;
   padding: 80px 0;
 }
@@ -462,17 +470,48 @@ div.prima-sezione div.container-triade {
 }
 
 div.prima-sezione div.container-triade img {
-  width: 40%;
+  width: 50%;
 }
 
 div.prima-sezione div.container-triade p {
-  margin: 0 80px;
+  margin: 0 50px;
   font-size: 18px;
   margin-top: 20px;
 }
 
 div.prima-sezione div.immagine-sotto-triade img {
-  width: 60%;
+  width: 50%;
   margin-top: 50px;
+}
+
+div.seconda-sezione {
+  background-color: #ffe7d2;
+  color: #58402c;
+  text-align: center;
+  padding: 80px 0;
+}
+
+div.seconda-sezione div.container-triade {
+  text-align: center;
+  padding-top: 50px;
+}
+
+div.seconda-sezione div.container-triade img {
+  width: 50%;
+}
+
+div.seconda-sezione div.container-triade p {
+  margin: 0 50px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+div.seconda-sezione div.immagine-sotto-triade img {
+  width: 50%;
+  margin-top: 50px;
+}
+
+div.seconda-sezione div.container-triade:nth-last-of-type(2) .img-safe {
+  width: 20%;
 }
 

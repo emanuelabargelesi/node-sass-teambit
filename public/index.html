@@ -9,59 +9,63 @@
   <!-- JS: MY SCRIPT -->
   <script src="js/script.js" charset="utf-8"></script>
   <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <title>Team Bit</title>
 </head>
 
 <body>
 
   <!-- ****************** HEADER ****************** -->
-  <header>
-    <div class="row">
 
-  <!-- HEADER SUPERIORE -->
+
+<header>
+    <!-- HEADER SUPERIORE -->
     <div class="top-header col-xs-12 col-xs-offset-0">
+      <div class="row">
 
-      <div class="logo col-xs-6">
-        <img src="img/logo-small.svg" alt="logo">
-        <p>TeamBit</p>
+        <div class="logo col-xs-5 col-xs-offset-1">
+          <img src="img/logo-small.svg" alt="logo">
+          <p>TeamBit</p>
+        </div>
+
+        <div class="right-menu col-xs-5 col-xs-offset-1">
+          <div class="dropdown col-xs-3">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              Solution
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <li><a href="#">Feedback</a></li>
+              <li><a href="#">Surveys</a></li>
+              <li><a href="#">Reviews</a></li>
+              <li><a href="#">Praise</a></li>
+            </ul>
+          </div>
+          <ul class="list-menu col-xs-9">
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Sign In</a></li>
+          </ul>
+        </div>
       </div>
-
-      <div class="right-menu col-xs-6">
-        <div class="dropdown col-xs-3">
-  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-    Solution
-    <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-    <li><a href="#">Feedback</a></li>
-    <li><a href="#">Surveys</a></li>
-    <li><a href="#">Reviews</a></li>
-    <li><a href="#">Praise</a></li>
-  </ul>
-  </div>
-  <ul class="list-menu col-xs-9">
-    <li><a href="#">Pricing</a></li>
-    <li><a href="#">Blog</a></li>
-    <li><a href="#">Sign In</a></li>
-  </ul>
-</div>
-      </div>
+    </div>
 
 
-<!-- HEADER INFERIORE -->
+
+    <!-- HEADER INFERIORE -->
     <div class="bottom-header col-xs-12 col-xs-offset-0">
+      <div class="row">
 
-      <div class="bottom-header-sx col-xs-12 col-xs-offset-0 col-md-6">
+      <div class="bottom-header-sx col-xs-12 col-xs-offset-0 col-md-5 col-md-offset-1">
         <h1>Understand, recognize and develop your people</h1>
         <h3>Teambit helps teams create a high performing culture with regular feedback.</h3>
       </div>
 
-      <div class="bottom-header-dx col-xs-12 col-xs-offset-0 col-md-6">
+      <div class="bottom-header-dx col-xs-12 col-xs-offset-0 col-md-5">
         <img src="img/illustration-main.jpg" alt="meetup">
       </div>
 
@@ -75,39 +79,65 @@
 
 
     <!-- PRIMA SEZIONE -->
-    <div class="prima-sezione">
-  <div class="container_col">
-    <div class="row">
+    <div class="prima-sezione col-xs-12 col-xs-offset-0">
+      <div class="container_col">
+        <div class="row">
 
-  <h3>Traditional people processes lead to disengagement and turnover.</h3>
+          <h3>Traditional people processes lead to disengagement and turnover.</h3>
 
+          <div class="container-triade col-md-10 col-md-offset-1">
+            <div class="img1 col-xs-12 col-xs-offset-0 col-md-4">
+              <img src="img/hardcore.png" alt="hardcore">
+              <p>t's lightweight fun and interconnected</p>
+            </div>
+            <div class="img2 col-xs-12 col-xs-offset-0 col-md-4">
+              <img src="img/nofeedback.png" alt="nofeedback">
+              <p>It encourages regular feedback with contextual requests</p>
+            </div>
+            <div class="img3 col-xs-12 col-xs-offset-0 col-md-4">
+              <img src="img/notsafe.png" alt="notsafe">
+              <p>It creates a safe environment for dialog</p>
+            </div>
+          </div>
+          <div class="immagine-sotto-triade col-xs-12 col-xs-offset-0 col-md-6 col-md-offset-3">
+            <img src="img/before.png" alt="before">
+          </div>
 
-<div class="row">
-  <div class="container-triade">
-    <div class="img1 col-xs-12 col-xs-offset-0 col-md-4">
-      <img src="img/hardcore.png" alt="hardcore">
-      <p>They are hardcore, formal and disconnected </p>
+        </div>
+      </div>
     </div>
-    <div class="img2 col-xs-12 col-xs-offset-0 col-md-4">
-      <img src="img/nofeedback.png" alt="nofeedback">
-      <p>They don't encourage regular feedback </p>
+
+<hr>
+
+    <!-- PRIMA SEZIONE -->
+    <div class="seconda-sezione col-xs-12 col-xs-offset-0">
+      <div class="container_col">
+        <div class="row">
+
+          <h3>It doesn't have to be like that. Teambit is a modern solution that teammates love.</h3>
+
+
+          <div class="container-triade col-md-10 col-md-offset-1">
+            <div class="img1 col-xs-12 col-xs-offset-0 col-md-4">
+              <img src="img/lightweight.png" alt="lightweight">
+              <p>They are hardcore, formal and disconnected</p>
+            </div>
+            <div class="img2 col-xs-12 col-xs-offset-0 col-md-4">
+              <img src="img/feedbacksuggestions.png" alt="feedbacksuggestions">
+              <p>They don't encourage regular feedback</p>
+            </div>
+            <div class="img3 col-xs-12 col-xs-offset-0 col-md-4">
+              <img src="img/safe.png" alt="safe" class="img-safe">
+              <p>They don't make it safe to speak up</p>
+            </div>
+          </div>
+          <div class="immagine-sotto-triade col-xs-12 col-xs-offset-0 col-md-6 col-md-offset-3">
+            <img src="img/after.png" alt="after">
+          </div>
+
+        </div>
+      </div>
     </div>
-    <div class="img3 col-xs-12 col-xs-offset-0 col-md-4">
-      <img src="img/notsafe.png" alt="notsafe">
-      <p>They don't make it safe to speak up </p>
-    </div>
-  </div>
-  <div class="immagine-sotto-triade col-xs-12 col-xs-offset-0 col-md-6 col-md-offset-3">
-    <img src="img/before.png" alt="before">
-  </div>
-
-</div>
-</div>
-</div>
-
-
-
-</div>
 
 
 

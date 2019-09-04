@@ -26,11 +26,17 @@ $pink-main: #ffe7d2;
 }
 
 @mixin ptriade {
-  margin: 0 80px;
+  margin: 0 50px;
   font-size: 18px;
   margin-top: 20px;
 }
 
+@mixin pink-bg {
+  background-color: $pink-main;
+  color: $brown-color;
+  text-align: center;
+  padding: 80px 0;
+}
 
 
 

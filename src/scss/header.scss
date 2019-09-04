@@ -7,6 +7,7 @@ header {
     z-index: 100;
     background-color: white;
     @extend %header-footer-padding;
+    top: 0;
 
     div.logo {
       img {
@@ -100,4 +101,15 @@ header {
       }
     }
   }
+}
+
+@media (max-width: 600px) {
+
+   .top-header {
+     padding: 0;
+   }
+
+   .right-menu {
+     display: none;
+   }
 }
