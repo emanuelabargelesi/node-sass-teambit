@@ -194,6 +194,15 @@ div.quarta-sezione {
   @include pink-bg;
   @extend %brown-color;
 
+  .quarta-sezione-titolo {
+
+    h1 {
+    line-height: 61px;
+    font-size: 40px;
+    font-weight: bold;
+}
+  }
+
   .text-area {
     background-color: white;
     padding: 30px 30px;
@@ -202,5 +211,6 @@ div.quarta-sezione {
     border-radius: 15px;
     font-size: 16px;
     margin-top: 50px;
+    margin-bottom: 50px;
   }
 }

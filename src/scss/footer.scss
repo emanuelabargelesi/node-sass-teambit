@@ -1,0 +1,42 @@
+//footer
+
+footer {
+  .footer {
+    margin-top: 80px;
+
+    div.footer-sx {
+      display: flex;
+      flex-direction: row;
+
+      img {
+        width: 40%;
+        margin-right: 20px;
+      }
+    }
+
+    div.footer-dx {
+      .colonna-footer {
+        width: 18%;
+        float: left;
+        margin-left: 2%;
+        margin-right: 0;
+
+        ul {
+          list-style-type: none;
+        }
+
+        a {
+          font-size: 13px;
+          line-height: 2.5;
+          @extend %brown-color;
+        }
+
+        li:first-of-type {
+          margin-bottom: 20px;
+          font-size: 18px;
+          @extend %brown-color;
+        }
+      }
+    }
+  }
+}

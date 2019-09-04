@@ -8,6 +8,8 @@ header div.top-header {
   padding: 15px 50px;
 }
 
+footer .footer div.footer-dx .colonna-footer li:first-of-type,
+footer .footer div.footer-dx .colonna-footer a,
 div.quarta-sezione,
 div.seconda-sezione,
 div.prima-sezione,
@@ -660,6 +662,12 @@ div.quarta-sezione {
   padding: 80px 0;
 }
 
+div.quarta-sezione .quarta-sezione-titolo h1 {
+  line-height: 61px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
 div.quarta-sezione .text-area {
   background-color: white;
   padding: 30px 30px;
@@ -668,5 +676,41 @@ div.quarta-sezione .text-area {
   border-radius: 15px;
   font-size: 16px;
   margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+footer .footer {
+  margin-top: 80px;
+}
+
+footer .footer div.footer-sx {
+  display: flex;
+  flex-direction: row;
+}
+
+footer .footer div.footer-sx img {
+  width: 40%;
+  margin-right: 20px;
+}
+
+footer .footer div.footer-dx .colonna-footer {
+  width: 18%;
+  float: left;
+  margin-left: 2%;
+  margin-right: 0;
+}
+
+footer .footer div.footer-dx .colonna-footer ul {
+  list-style-type: none;
+}
+
+footer .footer div.footer-dx .colonna-footer a {
+  font-size: 13px;
+  line-height: 2.5;
+}
+
+footer .footer div.footer-dx .colonna-footer li:first-of-type {
+  margin-bottom: 20px;
+  font-size: 18px;
 }
 
