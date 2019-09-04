@@ -187,3 +187,20 @@ div.container-doppia{
     padding: 0;
   }
 }
+
+// QUARTA SEZIONE
+
+div.quarta-sezione {
+  @include pink-bg;
+  @extend %brown-color;
+
+  .text-area {
+    background-color: white;
+    padding: 30px 30px;
+    color: black;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    font-size: 16px;
+    margin-top: 50px;
+  }
+}

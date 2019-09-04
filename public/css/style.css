@@ -8,6 +8,7 @@ header div.top-header {
   padding: 15px 50px;
 }
 
+div.quarta-sezione,
 div.seconda-sezione,
 div.prima-sezione,
 header div.top-header div.right-menu .list-menu a,
@@ -650,5 +651,22 @@ div.terza-sezione div.container-doppia .img4 img {
   div.terza-sezione {
     padding: 0;
   }
+}
+
+div.quarta-sezione {
+  background-color: #ffe7d2;
+  color: #58402c;
+  text-align: center;
+  padding: 80px 0;
+}
+
+div.quarta-sezione .text-area {
+  background-color: white;
+  padding: 30px 30px;
+  color: black;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  font-size: 16px;
+  margin-top: 50px;
 }
 
